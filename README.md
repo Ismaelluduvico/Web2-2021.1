@@ -1,2 +1,4 @@
-# Web2-2021.1
-Aulas de Web 2
+1 - Criar Rotas (create e store) 
+
+2 - Criar View(fornecedor.create)
+
