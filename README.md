@@ -1,4 +1,4 @@
-1 - Criar Rotas (create e store) 
+1 - Criar Rotas (create, store, createfornecedor e storefornecedor):
 
-2 - Criar View(fornecedor.create)
+2 - Criar View(createfornecedor, indexfornecedor):
 
