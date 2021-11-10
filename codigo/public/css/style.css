@@ -1,0 +1,185 @@
+html{
+    background-color: #ddd;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: #ddd;
+    font: 85% arial, helvetica, sans-serif;
+    text-align: center;
+}
+
+#container {
+    width: auto;
+    height: 100vh;
+    background: #eee;
+    text-align: center;
+}
+
+#header {
+    background: rgb(10, 10, 10);
+    height: 60px;
+}
+
+#header h1 {
+    color: #fff;
+}
+
+#nav {
+    background:dimgray;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 150%;
+}
+
+#conteudo {
+    float: center;
+    width: auto;
+    background: #eee;
+    margin: 0px;
+}
+
+#footer {
+    background:dimgray;
+    padding-top: 5px;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
+
+#footer p{
+    color: black;
+}
+
+#nav ul {
+    margin: 0 0 0 20px;
+    padding: 0;
+    list-style-type: none;
+    border-left: 1px solid #c4c769;
+}
+
+#nav li {
+    display: inline;
+    padding: 0 10px;
+    border-radius: 1px solid #c4c769;
+}
+
+#nav li a {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    color:black;
+}
+
+#nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: black;
+}
+
+/* Css paginas de  create e edit*/
+
+
+#create {
+    background: #eee;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+#create h1 {
+    font-size: 170%;
+    margin-top: 50px;
+    padding-bottom: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    
+}
+
+#create ul{
+    margin-top: 20px;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-bottom: 80px;
+    list-style: none;
+    background: dimgray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+#create li {
+    padding-top: 2px;
+    padding-bottom: 20px;
+}
+
+#create li input {
+    width: 350px;
+    height: 28px;
+    text-align: center;
+    font-size: 100%;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+#create label {
+    font-size: 18px;
+    color:black;
+}
+
+#butao input[type="submit"]{
+    padding: 5px 20px;
+    font-size: 24px;
+    background-color: darkgreen;
+    border: 1px solid green;
+    border-radius: 50px;
+    cursor: pointer;
+    color: black;
+    transition: 0.5;
+}
+
+#butao input[type="submit"]:hover{
+    background-color: green;
+    color: white;
+}
+
+/* Css paginas de  exibição*/
+
+#ezibi {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#ezibi table{
+    border-radius: 50px;
+}
+
+#ezibi h1 {
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+
+#ezibi input[type="submit"]{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 14px;
+    background-color: darkred;
+    border: 1px solid rgb(226, 8, 8);
+    border-radius: 30px;
+    cursor: pointer;
+    color: black;
+    transition: 0.5;
+}
+
+#ezibi input[type="submit"]:hover {
+    background-color: red;
+    color: white;
+}
