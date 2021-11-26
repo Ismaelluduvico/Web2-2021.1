@@ -1,0 +1,27 @@
+/* Css flexbox*/
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.flex > div{
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+#form ul{
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+
+}
+
+#form li{
+    margin: 10px;
+}
+
+#editar li a{
+    margin: 30px;
+}
