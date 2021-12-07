@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+.btn-adicionar a{
+    text-decoration: none;
+    background-color: #295C8A;
+    float:right;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 15px;
+}
+.btn-adicionar a:hover{
+    color: black;
+}
+.table-bg{
+    border-radius: 15px 15px 0 0;
+}
+.table-bg th p{
+    text-align: center;
+}
+
+.table-bg td p{
+    text-align: center;
+}
+
+#conte{
+    margin-bottom: 50px;
+}
