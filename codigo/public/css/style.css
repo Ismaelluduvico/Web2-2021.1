@@ -1,0 +1,115 @@
+body, ul, li, p{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+strong{
+    color:white;
+}
+
+.header{
+    background: #295C8A;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 0.5%;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 20px;
+    align-items: center;
+}
+.logo a strong{
+ color: white;
+}
+.logo a:hover{
+    color: white;
+}
+
+.menu{
+    display: flex;
+}
+.menu li{
+    margin-left: 10px;
+}
+
+.menu li a{
+    display: block;
+    padding: 10px;
+}
+
+.menu li a:hover{
+    color: black;
+}
+
+#footer{
+    background: #295C8A;
+    padding-top: 5px;
+    margin-left: 1%;
+    margin-bottom: 0.5%;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    width: 98%;
+}
+#footer p{
+    padding: 10px;
+    color: white;
+}
+
+/*CSS de Login*/
+
+#conter {
+    background-image: url(../imagens/index_back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#login ul{
+    background: rgba(0, 0, 0, 0.5);
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+#login li {
+    padding-top: 2px;
+    padding-bottom: 20px;
+}
+
+#login li input {
+    text-align: center;
+    width: 70%;
+    height: 35px;
+    font-size: 100%;
+    border: 1px solid #fff;
+}
+
+#login ul label{
+    color: white;
+}
+
+#log-butao input[type="submit"]{
+    background: #19834C;
+    border: 1px solid #19834C;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+#ini h1{
+    color: white;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    text-align: center;
+}
